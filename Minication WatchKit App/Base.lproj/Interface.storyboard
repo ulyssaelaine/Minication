@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Minication_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Where would you like to go?" id="ZQd-FX-Ogy"/>
+                        <button width="1" alignment="left" title="Hawaii" id="rNF-pu-7NL">
+                            <connections>
+                                <segue destination="aBM-sa-Gjg" kind="push" id="oMN-Ga-5Uc"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Seaside, OR" id="Bn6-Rh-zZ4">
+                            <connections>
+                                <segue destination="R2W-jC-4y6" kind="push" id="ZGN-VQ-tPY"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Kyoto, Japan" id="yXO-IV-eVm">
+                            <connections>
+                                <segue destination="ynq-yF-Ft4" kind="push" id="n17-yn-gSw"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Canada" id="kdr-hT-lan">
+                            <connections>
+                                <segue destination="1TR-K4-OdM" kind="push" id="7cB-mV-uTL"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="rIS-nx-EIH">
+            <objects>
+                <controller id="R2W-jC-4y6">
+                    <items>
+                        <imageView width="1" height="1" alignment="left" image="seaside" id="VzS-H6-mcN"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="500" y="140"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="pDL-6s-VDj">
+            <objects>
+                <controller id="aBM-sa-Gjg">
+                    <items>
+                        <imageView width="1" height="1" alignment="left" image="Hawaii" id="IZJ-sA-6aG"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="516" y="388"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="DQZ-La-Vsn">
+            <objects>
+                <controller id="1TR-K4-OdM">
+                    <items>
+                        <imageView width="1" height="1" alignment="left" image="canada" id="ale-Tw-3N7"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="333" y="684"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="3IG-kv-fGh">
+            <objects>
+                <controller id="ynq-yF-Ft4">
+                    <items>
+                        <imageView width="1" height="1" alignment="left" image="kyoto" id="Mh8-t2-QwC"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="516" y="653"/>
+        </scene>
+    </scenes>
+</document>
